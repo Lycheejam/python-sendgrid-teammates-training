@@ -1,0 +1,1 @@
+Pythonを使ってSendgridのTeammatesを管理するコードを書いてみる。
