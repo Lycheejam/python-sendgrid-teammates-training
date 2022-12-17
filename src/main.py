@@ -13,7 +13,7 @@ class SendgridTeammatesManage:
     def main(self) -> None:
         self.get_teammates()
         self.get_scopes()
-        # self.add_teammate()
+        self.add_teammate()
 
     def authorize_client(self) -> SendGridAPIClient:
         sg = SendGridAPIClient(api_key=os.environ.get("SENDGRID_API_KEY"))
